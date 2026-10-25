@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=180&section=header&text=Aizhan%20Amanova&fontSize=44&fontColor=ffffff&fontAlignY=38" width="100%"/>
-
-<a href="https://github.com/Aizhanaaah">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=2C5364&center=true&vCenter=true&width=620&lines=Mechatronics+engineer;ML+for+industrial+data;Based+in+Budapest%2C+from+Kyrgyzstan" alt="typing intro"/>
-</a>
+<img src="./assets/header.svg" width="100%" alt="Aizhan Amanova — Mechatronics engineer, ML for industrial data"/>
 
 [LinkedIn](https://www.linkedin.com/in/aizhan-amanova-25916b253/) · [Email](mailto:amanovaintech@gmail.com)
 
