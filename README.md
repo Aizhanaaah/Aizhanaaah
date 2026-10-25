@@ -20,33 +20,61 @@ understanding the hardware that produces the data.
 - Research: driving performance prediction from sleep variables using Neural Network
 - Looking for both Development and Automation Internship and Graduate Positions
 
-## Featured projects
+## Featured Projects
 
-### Bearing Health Assessment & RUL Prediction · *Thesis*
-Predicts remaining useful life of bearings from the IMS vibration dataset
-using classical ML (no deep learning, on purpose: interpretable and fast).
-**Result:** [metric, e.g. RMSE / MAE / what you beat as baseline]
-`Python` `Pandas` `Scikit-learn` · [Code](https://github.com/Aizhanaaah/IMS_Bearing_Degradation_Prediction_System)
+### 1. Bearing Health Assessment & RUL Prediction
+![Status](https://img.shields.io/badge/status-thesis-blue)
 
-### Flight Activity Analysis Dashboard
-Interactive dashboard with maps, filters and charts for exploring flight patterns.
-**Insight found:** [one real finding from the data]
-![dashboard preview](./assets/dashboard.gif)
-`Python` `Visualization` · [Code](https://github.com/Aizhanaaah/Flight_Data_Analysis.git) · [Live demo]([link if any])
+*Predicting when an industrial bearing will fail, using vibration data.*
 
-### Financial Tracker
-Java app for managing financial transactions, built to practice OOP design
-([what pattern/structure you used, e.g. layered architecture, interfaces]).
-`Java` `OOP` · [Code](https://github.com/Aizhanaaah/FinancialTracker)
+- **Problem:** Unplanned bearing failures stop production lines.
+- **Approach:** Classical ML on the IMS vibration dataset (interpretable, no deep learning).
+- **Result:** [metric, e.g. RMSE X vs baseline Y]
 
-### [Your mechatronics / robotics project]
-[What it does, what hardware, what you built yourself.]
-`[Arduino / ROS / PLC / ...]`
+**Stack:** `Python` `Pandas` `Scikit-learn`
+[Code →](https://github.com/Aizhanaaah/IMS_Bearing_Degradation_Prediction_System)
 
-### Sleep Deprivation & Driving Performance · *Research, in progress*
-ANN model predicting driving performance from sleep variables.
-**Status:** [what's done, what's next]
-`Python` `ANN` · [Code]([real link or delete this project])
+---
+
+### 2. Flight Activity Analysis Dashboard
+![Status](https://img.shields.io/badge/status-complete-green)
+
+*Interactive dashboard for exploring flight patterns on maps and charts.*
+
+- **Problem:** Raw flight data is impossible to read at a glance.
+- **Approach:** Filters, maps and charts built on a cleaned dataset.
+- **Result:** [one real finding, e.g. "busiest corridor is X"]
+
+**Stack:** `Python` `Data Analysis` `Visualization`
+[Code →](https://github.com/Aizhanaaah/Flight_Data_Analysis.git)
+
+---
+
+### 3. Financial Tracker
+![Status](https://img.shields.io/badge/status-complete-green)
+
+*Java app for managing financial transactions.*
+
+- **Problem:** Practice clean OOP on a realistic domain.
+- **Approach:** [structure used, e.g. layered design, interfaces]
+- **Result:** [what it can do: add/filter/report transactions]
+
+**Stack:** `Java` `OOP`
+[Code →](https://github.com/Aizhanaaah/FinancialTracker)
+
+---
+
+### 4. Sleep Deprivation & Driving Performance
+![Status](https://img.shields.io/badge/status-in%20progress-orange)
+
+*Predicting driving performance from sleep variables with an ANN.*
+
+- **Problem:** Does lack of sleep measurably hurt driving performance?
+- **Approach:** ANN trained on sleep-related variables.
+- **Result:** under the progress
+
+**Stack:** `Python` `ANN`
+[Code →]([real link])
 
 ## Toolkit
 
