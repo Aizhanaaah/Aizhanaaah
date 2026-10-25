@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Aizhan Amanova — Mechatronics engineer, Data Analyst"/>
+<img src="./assets/header-milkyway.svg" width="100%" alt="Aizhan Amanova, Mechatronics engineer, Data Analyst"/>
 
 [LinkedIn](https://www.linkedin.com/in/aizhan-amanova-25916b253/) · [Email](mailto:amanovaintech@gmail.com)
 
