@@ -7,7 +7,7 @@
 I build ML pipelines that predict when machines will fail, and I like
 understanding the hardware that produces the data.
 
-[LinkedIn]([your-link]) · [Email]([your-email]) · [CV]([your-cv-link])
+[LinkedIn](https://www.linkedin.com/in/aizhan-amanova-25916b253/) · [Email](amanovaintech@gmail.com)
 
 </div>
 
@@ -15,9 +15,10 @@ understanding the hardware that produces the data.
 
 ## Currently
 
-- Finishing my mechatronics engineering degree at Óbuda University
-- Thesis: predicting bearing failure from vibration data
-- Looking for: **[role type, e.g. Java backend / ML / automation internship]**
+- Studying mechatronics engineering at Óbuda University
+- Thesis: predicting bearing failure from vibration data through ML models
+- Research: driving performance prediction from sleep variables using Neural Network
+- Looking for both Development and Automation Internship and Graduate Positions
 
 ## Featured projects
 
@@ -51,7 +52,7 @@ ANN model predicting driving performance from sleep variables.
 
 | | |
 |---|---|
-| **Languages** | Python, Java |
+| **Languages** | Python, Java, C# |
 | **Data / ML** | Pandas, NumPy, Scikit-learn |
-| **Tools** | Git, GitHub |
-| **Domain** | Mechatronics, industrial automation, predictive maintenance |
+| **Tools** | Git, GitHub, GitLab |
+| **Domain** | Mechatronics, industrial automation, predictive maintenance, software development |
