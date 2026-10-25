@@ -23,7 +23,10 @@
       <feTurbulence type="fractalNoise" baseFrequency="0.35" numOctaves="1" seed="21"/>
       <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 .95  0 0 0 0 .85  14 0 0 0 -10.3"/>
     </filter>
-
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <!-- mask: dense stars only inside the galactic band -->
     <mask id="bandMask">
       <g transform="rotate(-20 450 140)" filter="url(#blurM)">
@@ -44,8 +47,11 @@
       10%  { transform: translate(-200px,100px); opacity: 0; }
       100% { transform: translate(-200px,100px); opacity: 0; }
     }
-    .t1 { font: 700 44px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #fff; letter-spacing: 2px; }
-    .t2 { font: 400 17px 'Courier New', monospace; fill: #c7d2fe; }
+    .t1 { font: 300 40px 'Segoe UI Light', 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+      fill: #fff; letter-spacing: 9px; text-transform: uppercase; }
+.t2 { font: 400 13px 'SF Mono', Consolas, 'Courier New', monospace;
+      fill: #c7d2fe; letter-spacing: 4px; text-transform: uppercase; }
+.line { stroke: #8b9cff; stroke-width: 1; opacity: .7; }
   </style>
 
   <rect width="900" height="260" fill="url(#bg)"/>
@@ -81,8 +87,9 @@
   <!-- readability shade behind the text -->
   <rect width="900" height="260" fill="url(#shade)"/>
 
-  <text class="t1" x="60" y="105">Aizhan Amanova</text>
-  <text class="t2" x="62" y="145">Mechatronics engineer</text>
-  <text class="t2" x="62" y="171">ML for industrial data</text>
-  <text class="t2" x="62" y="197">Budapest · from Kyrgyzstan</text>
+  <text class="t1" x="60" y="100" filter="url(#glow)">Aizhan Amanova</text>
+  <line class="line" x1="62" y1="122" x2="260" y2="122"/>
+  <text class="t2" x="62" y="150">Mechatronics engineer</text>
+  <text class="t2" x="62" y="174">Data analyst</text>
+  <text class="t2" x="62" y="198">Budapest · from Kyrgyzstan</text>
 </svg>
