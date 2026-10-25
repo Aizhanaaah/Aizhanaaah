@@ -47,11 +47,13 @@
       10%  { transform: translate(-200px,100px); opacity: 0; }
       100% { transform: translate(-200px,100px); opacity: 0; }
     }
-    .t1 { font: 300 40px 'Segoe UI Light', 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
-      fill: #fff; letter-spacing: 9px; text-transform: uppercase; }
-.t2 { font: 400 13px 'SF Mono', Consolas, 'Courier New', monospace;
-      fill: #c7d2fe; letter-spacing: 4px; text-transform: uppercase; }
-.line { stroke: #8b9cff; stroke-width: 1; opacity: .7; }
+    .t1 { font: 400 54px 'Segoe Script', 'Snell Roundhand', 'Brush Script MT',
+      'Lucida Handwriting', 'Apple Chancery', cursive;
+      fill: #fff; letter-spacing: 0; }
+    .t2 { font: italic 400 20px 'Segoe Script', 'Snell Roundhand', 'Brush Script MT',
+      'Lucida Handwriting', 'Apple Chancery', cursive;
+      fill: #c7d2fe; letter-spacing: 0; }
+    .line { stroke: #8b9cff; stroke-width: 1; opacity: .7; }
   </style>
 
   <rect width="900" height="260" fill="url(#bg)"/>
@@ -87,9 +89,9 @@
   <!-- readability shade behind the text -->
   <rect width="900" height="260" fill="url(#shade)"/>
 
-  <text class="t1" x="60" y="100" filter="url(#glow)">Aizhan Amanova</text>
-  <line class="line" x1="62" y1="122" x2="260" y2="122"/>
-  <text class="t2" x="62" y="150">Mechatronics engineer</text>
-  <text class="t2" x="62" y="174">Data analyst</text>
-  <text class="t2" x="62" y="198">Budapest · from Kyrgyzstan</text>
+  <text class="t1" x="60" y="105" filter="url(#glow)">Aizhan Amanova</text>
+  <line class="line" x1="62" y1="128" x2="300" y2="128"/>
+  <text class="t2" x="62" y="158">Mechatronics engineer</text>
+  <text class="t2" x="62" y="186">Data analyst</text>
+  <text class="t2" x="62" y="214">Budapest · from Kyrgyzstan</text>
 </svg>
