@@ -36,22 +36,22 @@ understanding the hardware that produces the data.
 
 ---
 
-### 2. Flight Activity Analysis Dashboard
-![Status](https://img.shields.io/badge/status-complete-green)
+### 2. Sleep Deprivation & Driving Performance
+![Status](https://img.shields.io/badge/status-research-blue)
 
-*Interactive dashboard for exploring flight patterns on maps and charts.*
+*Predicting driving performance from sleep variables with an ANN.*
 
-- **Problem:** Raw flight data is impossible to read at a glance.
-- **Approach:** Filters, maps and charts built on a cleaned dataset.
-- **Result:** [one real finding, e.g. "busiest corridor is X"]
+- **Problem:** Does lack of sleep measurably hurt driving performance?
+- **Approach:** ANN trained on sleep-related variables.
+- **Result:** under the progress
 
-**Stack:** `Python` `Data Analysis` `Visualization`
-[Code →](https://github.com/Aizhanaaah/Flight_Data_Analysis.git)
+**Stack:** `Python` `ANN`
+[Code →]([real link])
 
 ---
 
 ### 3. Financial Tracker
-![Status](https://img.shields.io/badge/status-complete-green)
+![Status](https://img.shields.io/badge/status-in%20progress-orange)
 
 *Java app for managing financial transactions.*
 
@@ -64,17 +64,18 @@ understanding the hardware that produces the data.
 
 ---
 
-### 4. Sleep Deprivation & Driving Performance
+### 4. Flight Activity Analysis Dashboard
 ![Status](https://img.shields.io/badge/status-in%20progress-orange)
 
-*Predicting driving performance from sleep variables with an ANN.*
+*Interactive dashboard for exploring flight patterns on maps and charts.*
 
-- **Problem:** Does lack of sleep measurably hurt driving performance?
-- **Approach:** ANN trained on sleep-related variables.
-- **Result:** under the progress
+- **Problem:** Raw flight data is impossible to read at a glance.
+- **Approach:** Filters, maps and charts built on a cleaned dataset.
+- **Result:** [one real finding, e.g. "busiest corridor is X"]
 
-**Stack:** `Python` `ANN`
-[Code →]([real link])
+**Stack:** `Python` `Data Analysis` `Visualization`
+[Code →](https://github.com/Aizhanaaah/Flight_Data_Analysis.git)
+
 
 ## Toolkit
 
