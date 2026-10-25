@@ -6,117 +6,66 @@
 
 *Exploring systems. Building projects. Understanding how things work.*
 
----
-
 </div>
+
+---
 
 ## `01` / ABOUT ME
 
-My name is Aizhan Amanova and I am from Kyrgyzstan. My focus is on learning by building projects, exploring technical concepts through implementation, and understanding the mechanisms behind the systems I work with.
-Rather than learning concepts in isolation, I enjoy connecting theory with practical experiments, analyzing results, and discovering how individual components work together.
+I'm Aizhan Amanova from Kyrgyzstan 🇰🇬. I'm interested in understanding how hardware, software, and data work together. I learn by building projects, experimenting with technical concepts, and connecting theory with practice.
 
-```text
-CURRENT INTERESTS
-├── Machine Learning & Predictive Analytics
-├── Software Development & Object-Oriented Programming
-├── Data Analysis & Visualization
-└──  Engineering Systems & Automation
-```
+**Interests:** Machine Learning · Software Development · Data Analysis · Engineering & Automation
 
 ## `02` / FEATURED PROJECTS
 
-### 01. Bearing Health Assessment & RUL Prediction
-`THESIS` · `MACHINE LEARNING` · `PREDICTIVE MAINTENANCE`
+**01. Bearing Health Assessment & RUL Prediction** `THESIS`
 
-Investigating classical machine learning methods for bearing health assessment and remaining useful life (RUL) prediction using the IMS run-to-failure vibration dataset.
+Classical ML methods for bearing health assessment and remaining useful life prediction using IMS vibration data.
 
-**Focus areas**
-- Vibration signal feature extraction and analysis
-- Health indicator construction and evaluation
-- Comparative evaluation of regression models
-- Reliable experimental design and model validation
+`Python` `Pandas` `Scikit-learn`
 
-`Python` `Pandas` `NumPy` `Scikit-learn` `Signal Processing`
-
-[ VIEW PROJECT →](https://github.com/Aizhanaaah/IMS_Bearing_Degradation_Prediction_System.gitYOUR_THESIS_REPOSITORY_URL)
+[↗ View Project](https://github.com/Aizhanaaah/IMS_Bearing_Degradation_Prediction_System)
 
 ---
 
-### 02. Flight Activity Analysis Dashboard
-`DATA ANALYSIS` · `GEOSPATIAL VISUALIZATION`
+**02. Flight Activity Analysis Dashboard**
 
-Developing an interactive dashboard for exploring geographic patterns and flight activity through map-based visualization and analytical tools.
+An interactive dashboard for exploring flight activity and geographic patterns through maps, filters, and charts.
 
-**Planned capabilities**
-- Interactive flight activity maps
-- Geographic and activity-based filters
-- Charts for exploratory data analysis
-- Data export for further investigation
+`Python` `Data Analysis` `Visualization`
 
-`Python` `Data Analysis` `Geospatial Visualization`
-
-[ VIEW PROJECT →](YOUR_FLIGHT_DASHBOARD_REPOSITORY_URL)
+[↗ View Project](https://github.com/Aizhanaaah/Flight_Data_Analysis.git)
 
 ---
 
-### 03. Financial Tracker
-`JAVA` · `OBJECT-ORIENTED PROGRAMMING` . `SOFTWARE DESIGN`
+**03. Financial Tracker**
 
-Building a financial tracking application to explore software architecture, object-oriented design, and the implementation of practical financial management features.
+A Java application exploring object-oriented programming and financial transaction management.
 
-**Focus areas**
-- Object-oriented design principles
-- Financial transaction management
-- Separation of responsibilities
+`Java` `OOP` `Software Design`
 
-
-[ VIEW PROJECT →]((https://github.com/Aizhanaaah/FinancialTracker.git))
+[↗ View Project](https://github.com/Aizhanaaah/FinancialTracker)
 
 ---
 
-### 04. Sleep Deprivation & Driving Performance
-`RESEARCH` · `ARTIFICIAL NEURAL NETWORKS` · `PREDICTIVE MODELING`
+**04. Sleep Deprivation & Driving Performance** `RESEARCH`
 
-Investigating whether sleep-related variables can be used to predict driving performance using artificial neural networks (ANNs).
+Exploring ANN-based prediction of driving performance using sleep-related variables.
 
-**Research focus**
-- Identifying suitable sleep and driving performance datasets
-- Exploring relationships between sleep deprivation and performance
-- Developing and evaluating ANN-based prediction models
-- Assessing predictive performance using appropriate metrics
+`Python` `ANN` `Machine Learning`
 
-`Python` `ANN` `Machine Learning` `Data Analysis`
-
-[ VIEW PROJECT →](YOUR_SLEEP_RESEARCH_REPOSITORY_URL)
+[↗ View Project](YOUR_SLEEP_RESEARCH_REPOSITORY_URL)
 
 ---
 
 ## `03` / TECHNICAL TOOLKIT
 
-| Domain | Technologies & Methods |
-|:--|:--|
-| Programming | Python · Java |
-| Data Analysis | Pandas · NumPy · Data Visualization |
-| Machine Learning | Scikit-learn · Regression · Model Evaluation |
-| Research | Feature Engineering · Experimental Design |
-| Software Development | OOP · Git · GitHub |
-| Engineering | Mechatronics · Robotics · Automation |
-
-*The toolkit evolves as I explore new concepts and implement them in projects.*
-
-## `04` / CURRENTLY EXPLORING
-
-- Understanding the relationship between data, models, and physical systems.
-- Building reproducible machine learning experiments.
-- Exploring software design through practical applications.
-- Turning analytical results into interactive visualizations.
+`Python` `Java` `Pandas` `NumPy` `Scikit-learn` `Git` `GitHub` `Machine Learning` `Mechatronics` `Automation`
 
 ---
 
 <div align="center">
 
 **LEARN → BUILD → TEST → UNDERSTAND**
-
-*Curiosity is the starting point. Implementation is the experiment.*
 
 </div>
