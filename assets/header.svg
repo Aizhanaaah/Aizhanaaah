@@ -1,69 +1,88 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
   <defs>
-    <radialGradient id="bg" cx="75%" cy="40%" r="95%">
-      <stop offset="0%" stop-color="#2b1055"/>
-      <stop offset="55%" stop-color="#0b0d2e"/>
-      <stop offset="100%" stop-color="#03030f"/>
-    </radialGradient>
-    <radialGradient id="neb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="planet" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#7dd3fc"/>
-      <stop offset="100%" stop-color="#4c1d95"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02020a"/>
+      <stop offset="100%" stop-color="#0a0f2c"/>
     </linearGradient>
+
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#02020a" stop-opacity=".75"/>
+      <stop offset="45%" stop-color="#02020a" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="blurL" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="26"/></filter>
+    <filter id="blurM" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="blurS" x="-30%" y="-200%" width="160%" height="500%"><feGaussianBlur stdDeviation="5"/></filter>
+
+    <!-- star fields generated from noise -->
+    <filter id="starsFaint" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="1" seed="7"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  9 0 0 0 -6.4"/>
+    </filter>
+    <filter id="starsBright" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.35" numOctaves="1" seed="21"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 .95  0 0 0 0 .85  14 0 0 0 -10.3"/>
+    </filter>
+
+    <!-- mask: dense stars only inside the galactic band -->
+    <mask id="bandMask">
+      <g transform="rotate(-20 450 140)" filter="url(#blurM)">
+        <ellipse cx="450" cy="140" rx="560" ry="46" fill="#fff"/>
+      </g>
+    </mask>
   </defs>
 
   <style>
-    .s { fill: #fff; animation: tw 3s ease-in-out infinite; }
-    .d1 { animation-delay: .5s; }
-    .d2 { animation-delay: 1.2s; }
-    .d3 { animation-delay: 2s; }
-    @keyframes tw { 0%,100% { opacity: .15; } 50% { opacity: 1; } }
-    .shoot { stroke: #fff; stroke-width: 1.5; stroke-linecap: round;
-             animation: shoot 7s linear infinite; opacity: 0; }
+    .tw { fill: #fff; animation: tw 3.5s ease-in-out infinite; }
+    .d1 { animation-delay: .8s; } .d2 { animation-delay: 1.7s; } .d3 { animation-delay: 2.6s; }
+    @keyframes tw { 0%,100% { opacity: .2; } 50% { opacity: 1; } }
+    .shoot { stroke: #fff; stroke-width: 1.5; stroke-linecap: round; opacity: 0;
+             animation: shoot 8s linear infinite; }
     @keyframes shoot {
       0%   { transform: translate(0,0); opacity: 0; }
-      4%   { opacity: 1; }
-      12%  { transform: translate(-220px,110px); opacity: 0; }
-      100% { transform: translate(-220px,110px); opacity: 0; }
+      3%   { opacity: 1; }
+      10%  { transform: translate(-200px,100px); opacity: 0; }
+      100% { transform: translate(-200px,100px); opacity: 0; }
     }
     .t1 { font: 700 44px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #fff; letter-spacing: 2px; }
-    .t2 { font: 400 18px 'Courier New', monospace; fill: #a5b4fc; }
+    .t2 { font: 400 17px 'Courier New', monospace; fill: #c7d2fe; }
   </style>
 
   <rect width="900" height="260" fill="url(#bg)"/>
-  <ellipse cx="660" cy="100" rx="280" ry="130" fill="url(#neb)"/>
 
-  <!-- stars -->
-  <circle class="s"     cx="40"  cy="35"  r="1.4"/>
-  <circle class="s d1"  cx="120" cy="210" r="1.2"/>
-  <circle class="s d2"  cx="210" cy="60"  r="1.6"/>
-  <circle class="s d3"  cx="330" cy="225" r="1.3"/>
-  <circle class="s"     cx="420" cy="30"  r="1.1"/>
-  <circle class="s d2"  cx="500" cy="190" r="1.5"/>
-  <circle class="s d1"  cx="560" cy="45"  r="1.2"/>
-  <circle class="s d3"  cx="610" cy="235" r="1.4"/>
-  <circle class="s"     cx="700" cy="25"  r="1.7"/>
-  <circle class="s d2"  cx="850" cy="60"  r="1.3"/>
-  <circle class="s d1"  cx="870" cy="215" r="1.5"/>
-  <circle class="s d3"  cx="780" cy="240" r="1.1"/>
-  <circle class="s"     cx="270" cy="140" r="1"/>
-  <circle class="s d2"  cx="470" cy="110" r="1"/>
+  <!-- Milky Way band -->
+  <g transform="rotate(-20 450 140)">
+    <ellipse cx="450" cy="140" rx="560" ry="62" fill="#3b2a8f" opacity=".55" filter="url(#blurL)"/>
+    <ellipse cx="470" cy="140" rx="460" ry="34" fill="#8b9cff" opacity=".35" filter="url(#blurM)"/>
+    <ellipse cx="620" cy="138" rx="190" ry="30" fill="#ffd7a1" opacity=".55" filter="url(#blurM)"/>
+    <ellipse cx="640" cy="137" rx="80"  ry="14" fill="#fff4dc" opacity=".6"  filter="url(#blurS)"/>
 
-  <!-- shooting star -->
-  <line class="shoot" x1="560" y1="30" x2="590" y2="16"/>
+    <!-- dust lanes -->
+    <ellipse cx="400" cy="138" rx="300" ry="5"  fill="#02020a" opacity=".6" filter="url(#blurS)"/>
+    <ellipse cx="640" cy="150" rx="170" ry="4"  fill="#02020a" opacity=".6" filter="url(#blurS)"/>
+    <ellipse cx="260" cy="150" rx="150" ry="4"  fill="#02020a" opacity=".5" filter="url(#blurS)"/>
+  </g>
 
-  <!-- planet + ring -->
-  <circle cx="760" cy="130" r="46" fill="url(#planet)"/>
-  <ellipse cx="760" cy="130" rx="86" ry="18" fill="none"
-           stroke="#c4b5fd" stroke-opacity=".7" stroke-width="3"
-           transform="rotate(-20 760 130)"/>
+  <!-- stars: sparse everywhere, dense inside the band -->
+  <rect width="900" height="260" filter="url(#starsFaint)" opacity=".45"/>
+  <rect width="900" height="260" filter="url(#starsFaint)" mask="url(#bandMask)" opacity=".9"/>
+  <rect width="900" height="260" filter="url(#starsBright)" opacity=".8"/>
 
-  <!-- text -->
-  <text class="t1" x="60" y="115">Aizhan Amanova</text>
-  <text class="t2" x="62" y="155">Mechatronics engineer</text>
-  <text class="t2" x="62" y="182">ML for industrial data</text>
-  <text class="t2" x="62" y="209">Budapest · from Kyrgyzstan</text>
+  <!-- a few twinkling stars -->
+  <circle class="tw"    cx="80"  cy="40"  r="1.6"/>
+  <circle class="tw d1" cx="300" cy="225" r="1.4"/>
+  <circle class="tw d2" cx="520" cy="35"  r="1.7"/>
+  <circle class="tw d3" cx="760" cy="215" r="1.5"/>
+  <circle class="tw d1" cx="850" cy="50"  r="1.4"/>
+  <circle class="tw d2" cx="440" cy="235" r="1.2"/>
+
+  <line class="shoot" x1="700" y1="25" x2="728" y2="12"/>
+
+  <!-- readability shade behind the text -->
+  <rect width="900" height="260" fill="url(#shade)"/>
+
+  <text class="t1" x="60" y="105">Aizhan Amanova</text>
+  <text class="t2" x="62" y="145">Mechatronics engineer</text>
+  <text class="t2" x="62" y="171">ML for industrial data</text>
+  <text class="t2" x="62" y="197">Budapest · from Kyrgyzstan</text>
 </svg>
