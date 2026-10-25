@@ -12,10 +12,7 @@
 
 ## `01` / ABOUT ME
 
-I'm interested in understanding how systems work at the intersection of **hardware, software, and data**.
-
-My focus is on learning by building projects, exploring technical concepts through implementation, and understanding the mechanisms behind the systems I work with.
-
+My name is Aizhan Amanova and I am from Kyrgyzstan. My focus is on learning by building projects, exploring technical concepts through implementation, and understanding the mechanisms behind the systems I work with.
 Rather than learning concepts in isolation, I enjoy connecting theory with practical experiments, analyzing results, and discovering how individual components work together.
 
 ```text
@@ -23,8 +20,7 @@ CURRENT INTERESTS
 ├── Machine Learning & Predictive Analytics
 ├── Software Development & Object-Oriented Programming
 ├── Data Analysis & Visualization
-├── Engineering Systems & Automation
-└── Computational Approaches to Real-World Problems
+└──  Engineering Systems & Automation
 ```
 
 ## `02` / FEATURED PROJECTS
@@ -42,7 +38,7 @@ Investigating classical machine learning methods for bearing health assessment a
 
 `Python` `Pandas` `NumPy` `Scikit-learn` `Signal Processing`
 
-[ VIEW PROJECT →](YOUR_THESIS_REPOSITORY_URL)
+[ VIEW PROJECT →](https://github.com/Aizhanaaah/IMS_Bearing_Degradation_Prediction_System.gitYOUR_THESIS_REPOSITORY_URL)
 
 ---
 
@@ -64,7 +60,7 @@ Developing an interactive dashboard for exploring geographic patterns and flight
 ---
 
 ### 03. Financial Tracker
-`JAVA` · `OBJECT-ORIENTED PROGRAMMING`
+`JAVA` · `OBJECT-ORIENTED PROGRAMMING` . `SOFTWARE DESIGN`
 
 Building a financial tracking application to explore software architecture, object-oriented design, and the implementation of practical financial management features.
 
@@ -72,11 +68,9 @@ Building a financial tracking application to explore software architecture, obje
 - Object-oriented design principles
 - Financial transaction management
 - Separation of responsibilities
-- Maintainable application architecture
 
-`Java` `OOP` `Software Design`
 
-[ VIEW PROJECT →](YOUR_FINANCIAL_TRACKER_REPOSITORY_URL)
+[ VIEW PROJECT →]((https://github.com/Aizhanaaah/FinancialTracker.git))
 
 ---
 
