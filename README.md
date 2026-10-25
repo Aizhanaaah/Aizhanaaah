@@ -4,9 +4,6 @@
 
 **Mechatronics engineer · ML for industrial data · Based in Budapest, from Kyrgyzstan 🇰🇬**
 
-I build ML pipelines that predict when machines will fail, and I like
-understanding the hardware that produces the data.
-
 [LinkedIn](https://www.linkedin.com/in/aizhan-amanova-25916b253/) · [Email](amanovaintech@gmail.com)
 
 </div>
@@ -51,7 +48,7 @@ understanding the hardware that produces the data.
 ---
 
 ### 3. Financial Tracker
-![Status](https://img.shields.io/badge/status-in%20progress-orange)
+![Status](https://img.shields.io/badge/status-pet%20project-orange)
 
 *Java app for managing financial transactions.*
 
@@ -65,7 +62,7 @@ understanding the hardware that produces the data.
 ---
 
 ### 4. Flight Activity Analysis Dashboard
-![Status](https://img.shields.io/badge/status-in%20progress-orange)
+![Status](https://img.shields.io/badge/status-pet%20project-orange)
 
 *Interactive dashboard for exploring flight patterns on maps and charts.*
 
