@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
+  <defs>
+    <radialGradient id="bg" cx="75%" cy="40%" r="95%">
+      <stop offset="0%" stop-color="#2b1055"/>
+      <stop offset="55%" stop-color="#0b0d2e"/>
+      <stop offset="100%" stop-color="#03030f"/>
+    </radialGradient>
+    <radialGradient id="neb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7c5cff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="planet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .s { fill: #fff; animation: tw 3s ease-in-out infinite; }
+    .d1 { animation-delay: .5s; }
+    .d2 { animation-delay: 1.2s; }
+    .d3 { animation-delay: 2s; }
+    @keyframes tw { 0%,100% { opacity: .15; } 50% { opacity: 1; } }
+    .shoot { stroke: #fff; stroke-width: 1.5; stroke-linecap: round;
+             animation: shoot 7s linear infinite; opacity: 0; }
+    @keyframes shoot {
+      0%   { transform: translate(0,0); opacity: 0; }
+      4%   { opacity: 1; }
+      12%  { transform: translate(-220px,110px); opacity: 0; }
+      100% { transform: translate(-220px,110px); opacity: 0; }
+    }
+    .t1 { font: 700 44px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #fff; letter-spacing: 2px; }
+    .t2 { font: 400 18px 'Courier New', monospace; fill: #a5b4fc; }
+  </style>
+
+  <rect width="900" height="260" fill="url(#bg)"/>
+  <ellipse cx="660" cy="100" rx="280" ry="130" fill="url(#neb)"/>
+
+  <!-- stars -->
+  <circle class="s"     cx="40"  cy="35"  r="1.4"/>
+  <circle class="s d1"  cx="120" cy="210" r="1.2"/>
+  <circle class="s d2"  cx="210" cy="60"  r="1.6"/>
+  <circle class="s d3"  cx="330" cy="225" r="1.3"/>
+  <circle class="s"     cx="420" cy="30"  r="1.1"/>
+  <circle class="s d2"  cx="500" cy="190" r="1.5"/>
+  <circle class="s d1"  cx="560" cy="45"  r="1.2"/>
+  <circle class="s d3"  cx="610" cy="235" r="1.4"/>
+  <circle class="s"     cx="700" cy="25"  r="1.7"/>
+  <circle class="s d2"  cx="850" cy="60"  r="1.3"/>
+  <circle class="s d1"  cx="870" cy="215" r="1.5"/>
+  <circle class="s d3"  cx="780" cy="240" r="1.1"/>
+  <circle class="s"     cx="270" cy="140" r="1"/>
+  <circle class="s d2"  cx="470" cy="110" r="1"/>
+
+  <!-- shooting star -->
+  <line class="shoot" x1="560" y1="30" x2="590" y2="16"/>
+
+  <!-- planet + ring -->
+  <circle cx="760" cy="130" r="46" fill="url(#planet)"/>
+  <ellipse cx="760" cy="130" rx="86" ry="18" fill="none"
+           stroke="#c4b5fd" stroke-opacity=".7" stroke-width="3"
+           transform="rotate(-20 760 130)"/>
+
+  <!-- text -->
+  <text class="t1" x="60" y="115">Aizhan Amanova</text>
+  <text class="t2" x="62" y="155">Mechatronics engineer</text>
+  <text class="t2" x="62" y="182">ML for industrial data</text>
+  <text class="t2" x="62" y="209">Budapest · from Kyrgyzstan</text>
+</svg>
