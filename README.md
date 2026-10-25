@@ -1,71 +1,57 @@
 <div align="center">
 
-# AIZHAN / TECH EXPLORER
+# Aizhan Amanova
 
-**Hardware × Software × Data**
+**Mechatronics engineer · ML for industrial data · Based in Budapest, from Kyrgyzstan 🇰🇬**
 
-*Exploring systems. Building projects. Understanding how things work.*
+I build ML pipelines that predict when machines will fail, and I like
+understanding the hardware that produces the data.
 
-</div>
-
----
-
-## `01` / ABOUT ME
-
-I'm Aizhan Amanova from Kyrgyzstan 🇰🇬. I'm interested in understanding how hardware, software, and data work together. I learn by building projects, experimenting with technical concepts, and connecting theory with practice.
-
-**Interests:** Machine Learning · Software Development · Data Analysis · Engineering & Automation
-
-## `02` / FEATURED PROJECTS
-
-**01. Bearing Health Assessment & RUL Prediction** `THESIS`
-
-Classical ML methods for bearing health assessment and remaining useful life prediction using IMS vibration data.
-
-`Python` `Pandas` `Scikit-learn`
-
-[↗ View Project](https://github.com/Aizhanaaah/IMS_Bearing_Degradation_Prediction_System)
-
----
-
-**02. Flight Activity Analysis Dashboard**
-
-An interactive dashboard for exploring flight activity and geographic patterns through maps, filters, and charts.
-
-`Python` `Data Analysis` `Visualization`
-
-[↗ View Project](https://github.com/Aizhanaaah/Flight_Data_Analysis.git)
-
----
-
-**03. Financial Tracker**
-
-A Java application exploring object-oriented programming and financial transaction management.
-
-`Java` `OOP` `Software Design`
-
-[↗ View Project](https://github.com/Aizhanaaah/FinancialTracker)
-
----
-
-**04. Sleep Deprivation & Driving Performance** `RESEARCH`
-
-Exploring ANN-based prediction of driving performance using sleep-related variables.
-
-`Python` `ANN` `Machine Learning`
-
-[↗ View Project](YOUR_SLEEP_RESEARCH_REPOSITORY_URL)
-
----
-
-## `03` / TECHNICAL TOOLKIT
-
-`Python` `Java` `Pandas` `NumPy` `Scikit-learn` `Git` `GitHub` `Machine Learning` `Mechatronics` `Automation`
-
----
-
-<div align="center">
-
-**LEARN → BUILD → TEST → UNDERSTAND**
+[LinkedIn]([your-link]) · [Email]([your-email]) · [CV]([your-cv-link])
 
 </div>
+
+---
+
+## Currently
+
+- Finishing my mechatronics engineering degree at Óbuda University
+- Thesis: predicting bearing failure from vibration data
+- Looking for: **[role type, e.g. Java backend / ML / automation internship]**
+
+## Featured projects
+
+### Bearing Health Assessment & RUL Prediction · *Thesis*
+Predicts remaining useful life of bearings from the IMS vibration dataset
+using classical ML (no deep learning, on purpose: interpretable and fast).
+**Result:** [metric, e.g. RMSE / MAE / what you beat as baseline]
+`Python` `Pandas` `Scikit-learn` · [Code](https://github.com/Aizhanaaah/IMS_Bearing_Degradation_Prediction_System)
+
+### Flight Activity Analysis Dashboard
+Interactive dashboard with maps, filters and charts for exploring flight patterns.
+**Insight found:** [one real finding from the data]
+![dashboard preview](./assets/dashboard.gif)
+`Python` `Visualization` · [Code](https://github.com/Aizhanaaah/Flight_Data_Analysis.git) · [Live demo]([link if any])
+
+### Financial Tracker
+Java app for managing financial transactions, built to practice OOP design
+([what pattern/structure you used, e.g. layered architecture, interfaces]).
+`Java` `OOP` · [Code](https://github.com/Aizhanaaah/FinancialTracker)
+
+### [Your mechatronics / robotics project]
+[What it does, what hardware, what you built yourself.]
+`[Arduino / ROS / PLC / ...]`
+
+### Sleep Deprivation & Driving Performance · *Research, in progress*
+ANN model predicting driving performance from sleep variables.
+**Status:** [what's done, what's next]
+`Python` `ANN` · [Code]([real link or delete this project])
+
+## Toolkit
+
+| | |
+|---|---|
+| **Languages** | Python, Java |
+| **Data / ML** | Pandas, NumPy, Scikit-learn |
+| **Tools** | Git, GitHub |
+| **Domain** | Mechatronics, industrial automation, predictive maintenance |
