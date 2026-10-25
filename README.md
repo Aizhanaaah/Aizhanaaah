@@ -1,6 +1,6 @@
 <div align="center">
 
-# AIZHAN AMANOVA / TECH EXPLORER
+# AIZHAN / TECH EXPLORER
 
 **Hardware × Software × Data**
 
