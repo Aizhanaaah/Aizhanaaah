@@ -1,26 +1,28 @@
 <div align="center">
 
-# Aizhan Amanova
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=180&section=header&text=Aizhan%20Amanova&fontSize=44&fontColor=ffffff&fontAlignY=38" width="100%"/>
 
-**Mechatronics engineer · ML for industrial data · Based in Budapest, from Kyrgyzstan 🇰🇬**
+<a href="https://github.com/Aizhanaaah">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=2C5364&center=true&vCenter=true&width=620&lines=Mechatronics+engineer;ML+for+industrial+data;Based+in+Budapest%2C+from+Kyrgyzstan" alt="typing intro"/>
+</a>
 
-[LinkedIn](https://www.linkedin.com/in/aizhan-amanova-25916b253/) · [Email](amanovaintech@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/aizhan-amanova-25916b253/) · [Email](mailto:amanovaintech@gmail.com)
 
 </div>
 
 ---
 
-## Currently
+## 📍 Currently
 
 - Studying mechatronics engineering at Óbuda University
 - Thesis: predicting bearing failure from vibration data through ML models
 - Research: driving performance prediction from sleep variables using Neural Network
 - Looking for both Development and Automation Internship and Graduate Positions
 
-## Featured Projects
+## 🛠 Featured Projects
 
 ### 1. Bearing Health Assessment & RUL Prediction
-![Status](https://img.shields.io/badge/status-thesis-blue)
+![Status](https://img.shields.io/badge/status-thesis-2c5364?style=flat-square)
 
 *Predicting when an industrial bearing will fail, using vibration data.*
 
@@ -34,7 +36,7 @@
 ---
 
 ### 2. Sleep Deprivation & Driving Performance
-![Status](https://img.shields.io/badge/status-research-blue)
+![Status](https://img.shields.io/badge/status-research-8957e5?style=flat-square)
 
 *Predicting driving performance from sleep variables with an ANN.*
 
@@ -48,7 +50,7 @@
 ---
 
 ### 3. Financial Tracker
-![Status](https://img.shields.io/badge/status-pet%20project-orange)
+![Status](https://img.shields.io/badge/status-pet%20project-6e7781?style=flat-square)
 
 *Java app for managing financial transactions.*
 
@@ -62,7 +64,7 @@
 ---
 
 ### 4. Flight Activity Analysis Dashboard
-![Status](https://img.shields.io/badge/status-pet%20project-orange)
+![Status](https://img.shields.io/badge/status-pet%20project-6e7781?style=flat-square)
 
 *Interactive dashboard for exploring flight patterns on maps and charts.*
 
@@ -74,11 +76,11 @@
 [Code →](https://github.com/Aizhanaaah/Flight_Data_Analysis.git)
 
 
-## Toolkit
+## ⚙️ Toolkit
 
 | | |
 |---|---|
-| **Languages** | Python, Java, C# |
-| **Data / ML** | Pandas, NumPy, Scikit-learn |
-| **Tools** | Git, GitHub, GitLab |
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white) |
+| **Data / ML** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white) |
 | **Domain** | Mechatronics, industrial automation, predictive maintenance, software development |
