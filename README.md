@@ -1,93 +1,128 @@
-<!-- Replace YOUR_USERNAME and the project links with your actual details. -->
+<div align="center">
 
-<h1 align="center">Hi, I'm Aizhan 👋</h1>
+# AIZHAN AMANOVA / TECH EXPLORER
 
-<h3 align="center">
-  Mechatronics Engineering · Software Development · Applied Research
-</h3>
+**Hardware × Software × Data**
 
-<p align="center">
-  Building practical solutions at the intersection of engineering, software, and data.
-</p>
-
-<p align="center">
-  <a href="https://github.com/YOUR_USERNAME">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/Engineering-Systems%20%26%20Automation-2E8B57?style=for-the-badge" alt="Engineering">
-</p>
+*Exploring systems. Building projects. Understanding how things work.*
 
 ---
 
-## 🧭 About Me
+</div>
 
-I'm a mechatronics engineering student interested in understanding how software, data, and physical systems work together.
+## `01` / ABOUT ME
 
-My focus is on building projects that solve real problems, exploring technical concepts through implementation, and developing a deeper understanding of the systems behind the code.
+I'm interested in understanding how systems work at the intersection of **hardware, software, and data**.
 
-- 🎓 Studying Mechatronics Engineering with a robotics specialization.
-- 🔬 Working on machine learning methods for bearing health assessment and remaining useful life prediction.
-- 💻 Exploring software development, embedded systems, and engineering tools.
-- 🛠️ Interested in industrial automation, system-level programming, and practical engineering applications.
+My focus is on learning by building projects, exploring technical concepts through implementation, and understanding the mechanisms behind the systems I work with.
 
-## 🚀 Featured Projects
+Rather than learning concepts in isolation, I enjoy connecting theory with practical experiments, analyzing results, and discovering how individual components work together.
 
-### 🔬 Bearing Health Assessment & RUL Prediction
-**Machine Learning · Predictive Maintenance · Python**
+```text
+CURRENT INTERESTS
+├── Machine Learning & Predictive Analytics
+├── Software Development & Object-Oriented Programming
+├── Data Analysis & Visualization
+├── Engineering Systems & Automation
+└── Computational Approaches to Real-World Problems
+```
 
-A comparative study of classical machine learning methods for assessing bearing health and predicting remaining useful life using IMS run-to-failure vibration data.
+## `02` / FEATURED PROJECTS
 
-`Python` `Pandas` `Scikit-learn` `Signal Processing`
+### 01. Bearing Health Assessment & RUL Prediction
+`THESIS` · `MACHINE LEARNING` · `PREDICTIVE MAINTENANCE`
 
-[→ Explore Repository](YOUR_THESIS_REPOSITORY_URL)
+Investigating classical machine learning methods for bearing health assessment and remaining useful life (RUL) prediction using the IMS run-to-failure vibration dataset.
 
-### ⚙️ MicroBench
-**C++ · Systems Programming · Benchmarking**
+**Focus areas**
+- Vibration signal feature extraction and analysis
+- Health indicator construction and evaluation
+- Comparative evaluation of regression models
+- Reliable experimental design and model validation
 
-An experimental project exploring performance measurement, benchmarking methodology, and the fundamentals of low-level software development.
+`Python` `Pandas` `NumPy` `Scikit-learn` `Signal Processing`
 
-`C++` `Performance Analysis` `Systems Programming`
+[ VIEW PROJECT →](YOUR_THESIS_REPOSITORY_URL)
 
-[→ Explore Repository](YOUR_MICROBENCH_REPOSITORY_URL)
+---
 
-### 🗺️ Flight Activity Analysis Dashboard
-**Python · Data Visualization · Geospatial Analysis**
+### 02. Flight Activity Analysis Dashboard
+`DATA ANALYSIS` · `GEOSPATIAL VISUALIZATION`
 
-An exploratory analysis dashboard for examining geographic patterns and flight activity through interactive maps, filters, charts, and data exports.
+Developing an interactive dashboard for exploring geographic patterns and flight activity through map-based visualization and analytical tools.
+
+**Planned capabilities**
+- Interactive flight activity maps
+- Geographic and activity-based filters
+- Charts for exploratory data analysis
+- Data export for further investigation
 
 `Python` `Data Analysis` `Geospatial Visualization`
 
-[→ Explore Repository](YOUR_DASHBOARD_REPOSITORY_URL)
-
-## 🧰 Technologies & Tools
-
-| Area | Technologies |
-|---|---|
-| Programming | Python, C++, Java |
-| Data & Machine Learning | Pandas, NumPy, Scikit-learn |
-| Engineering | Mechatronics, Robotics, Industrial Automation |
-| Development Tools | Git, GitHub, VS Code |
-| Research | Signal Processing, Predictive Maintenance, Model Evaluation |
-
-*Technologies listed reflect my current learning and project work; individual projects may use different subsets.*
-
-## 🌱 Currently Exploring
-
-- Classical machine learning for predictive maintenance.
-- C++ fundamentals and system-level software development.
-- Reproducible experiments and reliable model evaluation.
-- Engineering software that connects data analysis with practical applications.
-
-## 📫 Connect
-
-<p>
-  <a href="https://github.com/YOUR_USERNAME">GitHub</a>
-</p>
+[ VIEW PROJECT →](YOUR_FLIGHT_DASHBOARD_REPOSITORY_URL)
 
 ---
 
-<p align="center">
-  <i>Learn by building. Understand by testing. Improve through iteration.</i>
-</p>
+### 03. Financial Tracker
+`JAVA` · `OBJECT-ORIENTED PROGRAMMING`
+
+Building a financial tracking application to explore software architecture, object-oriented design, and the implementation of practical financial management features.
+
+**Focus areas**
+- Object-oriented design principles
+- Financial transaction management
+- Separation of responsibilities
+- Maintainable application architecture
+
+`Java` `OOP` `Software Design`
+
+[ VIEW PROJECT →](YOUR_FINANCIAL_TRACKER_REPOSITORY_URL)
+
+---
+
+### 04. Sleep Deprivation & Driving Performance
+`RESEARCH` · `ARTIFICIAL NEURAL NETWORKS` · `PREDICTIVE MODELING`
+
+Investigating whether sleep-related variables can be used to predict driving performance using artificial neural networks (ANNs).
+
+**Research focus**
+- Identifying suitable sleep and driving performance datasets
+- Exploring relationships between sleep deprivation and performance
+- Developing and evaluating ANN-based prediction models
+- Assessing predictive performance using appropriate metrics
+
+`Python` `ANN` `Machine Learning` `Data Analysis`
+
+[ VIEW PROJECT →](YOUR_SLEEP_RESEARCH_REPOSITORY_URL)
+
+---
+
+## `03` / TECHNICAL TOOLKIT
+
+| Domain | Technologies & Methods |
+|:--|:--|
+| Programming | Python · Java |
+| Data Analysis | Pandas · NumPy · Data Visualization |
+| Machine Learning | Scikit-learn · Regression · Model Evaluation |
+| Research | Feature Engineering · Experimental Design |
+| Software Development | OOP · Git · GitHub |
+| Engineering | Mechatronics · Robotics · Automation |
+
+*The toolkit evolves as I explore new concepts and implement them in projects.*
+
+## `04` / CURRENTLY EXPLORING
+
+- Understanding the relationship between data, models, and physical systems.
+- Building reproducible machine learning experiments.
+- Exploring software design through practical applications.
+- Turning analytical results into interactive visualizations.
+
+---
+
+<div align="center">
+
+**LEARN → BUILD → TEST → UNDERSTAND**
+
+*Curiosity is the starting point. Implementation is the experiment.*
+
+</div>
