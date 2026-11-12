@@ -45,18 +45,15 @@
 
 ---
 
-### 3. Financial Tracker
-![Status](https://img.shields.io/badge/status-pet%20project-6e7781?style=flat-square)
+### 3. Finance Tracker
 
-*Java app for managing financial transactions.*
+Full-stack web app for tracking personal income and expenses.
 
-- **Problem:** Practice clean OOP on a realistic domain.
-- **Approach:** [structure used, e.g. layered design, interfaces]
-- **Result:** [what it can do: add/filter/report transactions]
+* **Problem:** Build a realistic multi-user backend with authentication, a relational data model and business rules — not just CRUD.
+* **Approach:** Layered Spring MVC architecture (controller → service → repository) with DTO-based validation, Spring Security (BCrypt, form login) and per-user data isolation enforced in every query.
+* **Result:** Users manage income/expense categories and transactions, filter by type, category and date range, and see monthly and all-time balances on a dashboard powered by JPQL aggregate queries.
 
-**Stack:** `Java` `OOP`
-[Code →](https://github.com/Aizhanaaah/FinancialTracker)
-
+Stack: `Java 21` `Spring Boot` `Spring Security` `Spring Data JPA` `MySQL` `Thymeleaf` `Bootstrap` [Code →](https://github.com/Aizhanaaah/FinancialTracker)
 ---
 
 ### 4. Flight Activity Analysis Dashboard
